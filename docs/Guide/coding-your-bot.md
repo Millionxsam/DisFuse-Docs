@@ -45,7 +45,7 @@ To start, we need to go into the "Main" section of the toolbar and drag the bloc
 You can find your bot's token in the Discord Developer Portal, under the "Bot" tab.
 
 :::info
-If you have not created a bot using the Discord Developer Portal, follow this guide: [Creating a bot](/docs/guide/creating-a-bot)
+If you have not created a bot using the Discord Developer Portal, follow this guide: [Creating a bot](creating-a-bot.md)
 :::
 
 ![Obtaining a bot token](media/image-17.png)
