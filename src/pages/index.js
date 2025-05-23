@@ -37,10 +37,7 @@ function HomepageHeader() {
 
 export default function Home() {
   return (
-    <Layout
-      title={"Home"}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout title={"Home"} description="The official documentation for Disfuse">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
