@@ -1,8 +1,8 @@
 # Slash Commands
 
-## What are slash commands?
+## What are Slash Commands?
 
-Slash commands are the main method of communicating with discord bot.
+Slash Commands are the main method of communicating with Discord bots.
 Users can run commands on a Discord bot to interact with it.
 
 Users can type "/" in the chat to see the list of available commands.
@@ -11,15 +11,15 @@ Users can type "/" in the chat to see the list of available commands.
 
 You can use slash commands to allow your users to do things, e.g. /kick, /ban, etc.
 
-You can also add options within slash commands, like channel options, user options, text options, etc. This is to allow users to specify parameters for a command and the bot can use those parameters. For example, `/ban <user> <reason>`. You can also add "subcommands" to a command. Like: "/balance show" and "/balance leaderboard" both fall under the "/balance" command.
+You can also add **options** within slash commands, like channel options, user options, text options, etc. This allows users to specify parameters for a command and the bot can use those parameters. For example, `/ban <user> <reason>`. You can also add **subcommands** to a command. Like: `/balance show` and `/balance leaderboard` both fall under the `/balance` command.
 
 ## Slash commands in DisFuse
 
-Under the "interactions" tab, there is "slash". All slash command related blocks are here.
+Under the "interactions" tab, there is the "Slash" category. All slash command related blocks are here.
 
 ![Slash commands category](media/image-1.png)
 
-To create slash commands, use the "set slash commands / context menus" block.
+To create Slash commands, use the "Create slash commands / context menus" block.
 
 If you want the commands to only be available in a certain server, put the ID of the server in the "test guild" field.
 
