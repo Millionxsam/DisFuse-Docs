@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Slash Commands
 
 ## What are Slash Commands?
