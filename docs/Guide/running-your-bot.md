@@ -12,6 +12,8 @@ DisFuse provides the files for your bot after you create features using blocks, 
 
 Here are some examples of **free** hosting services which you can use to run your bot files:
 
+> https://wispyte.com
+>
 > https://solarhosting.cc
 >
 > https://fps.ms
@@ -20,6 +22,8 @@ Here are some examples of **free** hosting services which you can use to run you
 
 If you are willing to pay money to run your bot, there are much more reliable options to choose from:
 
+> https://wispbyte.com (paid version)
+> 
 > https://replit.com
 >
 > https://heroku.com
