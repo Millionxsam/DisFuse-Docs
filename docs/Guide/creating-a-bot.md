@@ -30,13 +30,24 @@ Now, go to the "Bot" tab of your Discord bot.
 
 ![Bot tab](media/image-3.png)
 
-Scroll down until you see "Privileged Gateway Intents", in which you will enable the intents for your Bot. For now, let's enable all of them.
+Scroll down until you see "Privileged Gateway Intents". Turn on all three.
 
 :::warning
-This step is required for your bot to be run on DisFuse
+This step is required. DisFuse asks Discord for every intent when your bot starts, and Discord refuses the whole connection if a bot requests one it has not been granted. A bot with these switched off will not start at all.
 :::
 
 ![Enable privileged gateway intents](media/image-5.png)
+
+<details>
+  <summary>What each intent does</summary>
+
+**Presence Intent** lets your bot see who is online, idle or in do not disturb. Needed by `status of member` in the [Members](../Blocks/Servers/members.md) blocks.
+
+**Server Members Intent** lets your bot see the member list and hear about joins, leaves, role changes and nickname changes. Needed by nearly every [event](../Blocks/Events/events.md) about members, and by `for each member in server`.
+
+**Message Content Intent** lets your bot read the text of messages it was not mentioned in. Needed by `get content of message received`, and by anything that reacts to what people say.
+
+</details>
 
 **Once you've done that, save your changes.**
 
@@ -74,3 +85,7 @@ You're probably familiar with this page if you've ever added a bot to a server b
 Follow the instructions to select a server to add your bot to.
 
 Once you've added your bot to a server, your bot is all set! You can now create a project on DisFuse to start making commands and features for your bot.
+
+## Next
+
+[Create a DisFuse project](creating-a-project.md) for your new bot, and start building.

@@ -1,0 +1,9 @@
+{
+  "label": "Features",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "DisFuse Features",
+    "description": "Everything DisFuse gives you outside the block editor: the dashboard, Insights, Control, Websites, the Workshop, and DisFuse Premium."
+  }
+}

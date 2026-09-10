@@ -1,49 +1,105 @@
 ---
-sidebar_position: 4
+sidebar_position: 11
 ---
 
 # Running Your Bot
 
-## What is hosting?
-
-DisFuse provides the files for your bot after you create features using blocks, but, for a bot to be online, those files must be ran. The bigger and more used your bot, the more computer power you'll need. Most hosting services cost money; there are free alternatives, but each has its own limitations.
-
-## Hosting services
-
-Here are some examples of **free** hosting services which you can use to run your bot files:
-
-> https://wispyte.com
->
-> https://solarhosting.cc
->
-> https://fps.ms
->
-> https://discloud.com
-
-If you are willing to pay money to run your bot, there are much more reliable options to choose from:
-
-> https://wispbyte.com (paid version)
-> 
-> https://replit.com
->
-> https://heroku.com
+DisFuse writes your bot's code. Something has to run it, and that something is a host: a computer that stays on, all the time, with your bot's files on it.
 
 ## Export your bot
 
-When you want to start running your bot, click the export button to download the bot files.
+Click **Export** in the editor toolbar.
+
+![The export dialog](../Features/media/editor-export.png)
+
+You choose two things:
+
+- **Version**, if your project uses [Version Control](version-control.md).
+- **What to include**: the whole version, with every workspace, or just the one you are looking at.
+
+Export the whole thing unless you are deliberately testing one workspace on its own.
+
+Click **Download ZIP**.
 
 :::info
-If you change or add anything to your bot, you will have to re-export the files and upload them to your hosting service again.
+The exported files are a snapshot. Change your blocks and you have to export again and re-upload, or your host keeps running the old code.
 :::
 
-![Export button](media/image-21.png)
+### What is in the ZIP
 
-You will have the option to choose whether you want to export your whole project, or a single workspace. If you choose to export a single workspace, make sure you have a `log in to bot with token` block in that workspace, or else the bot won't be able to run.
+| File | What it is |
+| --- | --- |
+| `index.js` | Your bot, as JavaScript. |
+| `package.json` | The list of libraries it needs. |
+| `.env` | Your bot token and your [secrets](secrets.md). |
+| `instructions.txt` | A short guide to getting it running. |
 
----
+:::danger
+The `.env` file contains your real bot token. Never upload the ZIP anywhere public, never put it in a GitHub repository, and never send it to somebody who should not be able to control your bot.
+:::
 
-Once you have exported your bot, you can unarchive the downloaded `zip` file, and upload the new files to your hosting service.
+## Choose a host
 
-**Since every hosting service is different, you will have to find out the exact process of setting up your bot on your chosen hosting service.**
+Your bot needs [Node.js](https://nodejs.org), version 18 or newer.
 
-If you need help getting your bot online, please [join our Discord server](https://dsc.gg/disfuse) and create a post in #support, and we can help you with a specific hosting service, or any other issue you might have.
+**Free hosts.** Fine for testing and small bots. Expect limits: they may sleep when idle, cap your memory, or wipe files on restart.
+
+> [wispbyte.com](https://wispbyte.com)
+>
+> [solarhosting.cc](https://solarhosting.cc)
+>
+> [fps.ms](https://fps.ms)
+>
+> [discloud.com](https://discloud.com)
+
+**Paid hosts.** More reliable, and worth it once people depend on your bot.
+
+> [wispbyte.com](https://wispbyte.com) (paid plans)
+>
+> [replit.com](https://replit.com)
+>
+> [heroku.com](https://heroku.com)
+>
+> Any VPS provider, if you are comfortable with a terminal.
+
+:::warning
+If your bot uses the [Databases](../Blocks/Databases/simple.md) or [Files](../Blocks/files.md) blocks, check that your host keeps files between restarts. Some free hosts do not, and your data will vanish every time the bot restarts.
+:::
+
+## Get it running
+
+Every host is different, but the shape is always the same:
+
+1. Unzip the download.
+2. Upload the files to your host.
+3. Install the dependencies. Most hosts do this for you; otherwise run `npm install`.
+4. Set the start command to `node index.js`, or `npm start` if your host prefers it.
+5. Start it.
+
+Some hosts ignore `.env` files and want environment variables set in their own panel. If your bot starts but the token is missing, that is the reason. Copy each name and value across by hand.
+
+## Checking it worked
+
+Your bot's status in Discord turns from offline to online. If you set a presence with the [Main](../Blocks/main.md) blocks, it appears under the name.
+
+If it does not come online, read your host's console. The error is almost always in the first few lines.
+
+| Message | Means |
+| --- | --- |
+| `An invalid token was provided` | The token in `.env` is wrong or has been reset. |
+| `Used disallowed intents` | Privileged intents are off in the Discord Developer Portal. See [Creating a bot](creating-a-bot.md). |
+| `Cannot find module` | The dependencies were not installed. Run `npm install`. |
+| Nothing at all | The start command is wrong, or the host is not running it. |
+
+More in [Troubleshooting](../Help/troubleshooting.md).
+
+## Keeping it running
+
+- **Re-export after every change**, and re-upload. There is no automatic deployment.
+- **Watch the console** after an update. A bot that starts fine can still fail on the first command.
+- **Use [Insights](../Features/insights.md)** to see what your bot is actually doing across every server it is in, without reading logs.
+- **Use [Control](../Features/control.md)** to act as your bot from the DisFuse website.
+
+## Getting help
+
+If your bot will not start, [join the DisFuse Discord server](https://dsc.gg/disfuse) and post in the support channel. Include the error from your host's console and the name of the host. That is usually enough for somebody to spot it immediately.

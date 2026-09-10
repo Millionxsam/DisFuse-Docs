@@ -4,82 +4,87 @@ sidebar_position: 3
 
 # Coding Your Bot
 
-The code is the main thing of your bot. Without it, your bot would not respond or have commands.
+Your project exists and your bot is set up. Now for the part that makes it do something.
 
-Let's take a look at how to make your bot's features in Disfuse.
+## Open your project
 
-## Setup your project
-
-First, open your project by going into the dashboard -> projects, and click the "Open" button on your project.
+Go to **Projects** in the dashboard and click **Open** on your project.
 
 ![Open project button](media/image-13.png)
 
-Once you've opened your project, enter a name for your first workspace.
+## What you are looking at
 
-![New workspace name](media/image-14.png)
+![The editor](../Features/media/editor-with-blocks.png)
 
-<details>
-    <summary>What are workspaces?</summary>
+Three things matter to start with:
 
-    DisFuse allows you to create multiple workspaces within a project. This is useful for organizing your code and separating different features of your bot. Think of it like having different folders in your computer, but for your bot's code.
+- The **toolbox** down the left, holding every block DisFuse has.
+- The **canvas** in the middle, where you build.
+- The **toolbar** across the top, with File, Utilities, Versions, Invite and Export.
 
-    When exporting, you can choose to export all of the workspaces together or just one.
+[The Editor](the-editor.md) covers all of it in detail.
 
-</details>
+## Your first blocks
 
-## How to use blocks
+Every bot needs one block before anything else: the ready event.
 
-Once you've setup your first workspace, you will see an area where you can place blocks, and a toolbar on the left side, containing all the blocks you can use.
+1. Click **Main** in the toolbox.
+2. Drag `when the bot is logged in` onto the canvas.
 
-![Project workspace area](media/image-15.png)
+![When the bot is logged in](../Blocks/media/blocks/main_ready.png)
 
-Each block has a specific function, and you can use them to create your bot's features. To start, look through the blocks and find the ones that you think you will need for your bot.
-You can drag and drop the blocks into the workspace area to place them.
-
-## Logging into your bot
-
-To start, we need to go into the "Main" section of the toolbar and drag the block "Log in to bot with the token" into the workspace.
-
-![Login block](media/image-16.png)
-
-You can find your bot's token in the Discord Developer Portal, under the "Bot" tab.
+Everything that has to happen as soon as your bot connects goes inside it. That is where you register slash commands and set the bot's status.
 
 :::info
-If you have not created a bot using the Discord Developer Portal, follow this guide: [Creating a bot](creating-a-bot.md)
+There is no "log in with token" block any more. Your bot token lives in [project settings](project-settings.md), so it can never end up in a screenshot of your blocks or in a project you shared. If you are following an older tutorial that tells you to drag a token block, skip that step.
 :::
 
-![Obtaining a bot token](media/image-17.png)
+## Making a command
 
-:::warning
-You should treat your bot token like a password. Anyone who has your token will be able to control your bot, so you should not share it with anyone besides other developers of the bot.
+The shortest path to a working bot is a slash command.
+
+1. Open **Interactions**, then **Slash**.
+2. Drag `create slash commands / context menus` inside `when the bot is logged in`.
+3. Put your test server's ID in the test guild field while you are building, so commands appear straight away.
+4. Drag `add slash command` inside that, and give it a name and a description.
+5. Drag `when a slash command is received` onto the canvas, on its own.
+6. Inside it, check `name of the command` matches yours with an `if` block from **Logic**.
+7. Inside the `if`, use `reply to the interaction` from the same category, with a text display holding your reply.
+
+[Slash Commands](../Interactions/slash.md) walks through this in full, with screenshots of every block.
+
+:::tip
+`Utilities > Templates` loads a working slash command setup into your workspace, so you can see the shape before building your own. See [Templates](templates.md).
 :::
 
-This block is required for all projects, in order to log into your bot. In the text box, you have to enter your bot's token. However, there are two ways of doing this:
+## Where things are
 
-### Option 1: Secured Token
+| You want to | Look in |
+| --- | --- |
+| Send a message | [Channels](../Blocks/Servers/channels.md), then build it with [Components](../Blocks/Components/components.md) |
+| React to somebody joining | [Server Actions](../Blocks/Events/server-actions.md) |
+| Ban, kick or time out a member | [Members](../Blocks/Servers/members.md) |
+| Give somebody a role | [Roles](../Blocks/Servers/roles.md) |
+| Remember something between restarts | [Databases](../Blocks/Databases/simple.md) |
+| Add a button | [Buttons](../Blocks/Components/buttons.md) |
+| Talk to another website | [Fetch](../Blocks/Apps/fetch.md) |
 
-**This option is highly recommended for public projects.**
+The [Blocks](../Blocks/using-blocks.md) section has a page for every category.
 
-In order to safely store your bot's token in public projects, you need to create a "secret".
+## Saving
 
-In the top bar, click `Utilities -> Secrets` to open the secrets panel.
+DisFuse saves as you work. The toolbar shows the state: saving, saved, or an error if something went wrong.
 
-Secrets are not visible to anyone besides the owner of the project, even if you share the project with other collaborators. This is the safest way to store your bot's token.
+If you want a snapshot you can come back to, use [Version Control](version-control.md).
 
-In the "name" field, enter a name for your secret, such as "token". In the "value" field, enter your bot's token. Then, click the "Add secret" button.
+## Checking your work
 
-![Secrets panel](media/image-18.png)
+`File > Show Code` shows the JavaScript your blocks produce.
 
-Once you've created the secret, you need to use the `get secret with name` block, from the `main` category, and insert it into the `log in to bot with the token` block. Enter the name of the secret you created in the text box.
+![The code view](../Features/media/editor-show-code.png)
 
-This will get the secret's value and use it to log in to your bot.
+You do not need to understand it to use DisFuse. It is useful for two things: confirming a block does what you expected, and giving somebody in the support channel something concrete to look at.
 
-![Use token secret](media/image-19.png)
+## Next
 
-### Option 2: Unsecured Token
-
-**This method should only be used for private projects.**
-
-This method is much simpler, but it should not be used for public projects because it will allow anyone to see your bot's token. To use this method, simply enter your bot's token into the text box of the `log in to bot with the token` block.
-
-![Inserting token](media/image-20.png)
+When your bot does something worth seeing, [export it and run it](running-your-bot.md).

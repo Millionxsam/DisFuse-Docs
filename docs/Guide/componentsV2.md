@@ -1,3 +1,8 @@
+---
+sidebar_position: 12
+title: Components V2
+---
+
 # Components V2
 
 ## What is Components V2?

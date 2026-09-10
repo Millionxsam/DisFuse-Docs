@@ -101,8 +101,24 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Guide",
+                label: "Introduction",
                 to: "/docs/intro",
+              },
+              {
+                label: "Getting Started",
+                to: "/docs/Guide/creating-a-bot",
+              },
+              {
+                label: "Blocks",
+                to: "/docs/Blocks/using-blocks",
+              },
+              {
+                label: "Features",
+                to: "/docs/Features/premium",
+              },
+              {
+                label: "Help",
+                to: "/docs/Help/faq",
               },
             ],
           },

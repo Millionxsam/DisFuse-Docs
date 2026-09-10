@@ -1,45 +1,57 @@
 ---
 sidebar_position: 1
+title: Introduction
 ---
 
 # Introduction
 
 ## What is DisFuse?
 
-**Make your own advanced Discord bot with simple, easy-to-use block coding!**
+**Make your own advanced Discord bot with simple, easy-to-use block coding.**
 
-Have you ever wanted to create your own Discord bot, but you're not very good at coding? With DisFuse, making Discord bots has never been easier. Use a scratch-like environment to make your own advanced bot with no coding knowledge at all!
+Have you ever wanted to create your own Discord bot, but you are not very good at coding? With DisFuse, making Discord bots has never been easier. You snap blocks together in a scratch-like editor, DisFuse turns them into real [discord.js](https://discord.js.org) code, and you download that code and run it.
 
-Official website: https://disfuse.xyz
+Official website: [disfuse.xyz](https://disfuse.xyz)
 
-## Features
+![The DisFuse block editor](Features/media/editor-with-blocks.png)
 
-- Advanced Discord features
+## What you can build
 
-- Private/public projects
+Almost anything a Discord bot can do:
 
-- Custom blocks
+- Slash commands, context menus, buttons, select menus and modals
+- Moderation tools: bans, kicks, timeouts, role management, bulk delete
+- Welcome messages, autoroles, boost tracking and logging
+- Economy, leveling and ticket systems backed by a built-in database
+- Image generation with the Canvas blocks, and requests to any web API with the Fetch blocks
+- Full Components V2 messages, with containers, sections, galleries and files
 
-- Realtime collaboration
+## How DisFuse fits together
 
-- View, comment, like, clone, and add others' projects to your favorites
+| Piece | What it is |
+| --- | --- |
+| **Project** | One Discord bot, and all the blocks that make it work. |
+| **Workspace** | A tab inside a project. Split your bot across as many as you like. |
+| **Blocks** | The pieces you drag from the toolbox to build features. |
+| **Export** | A ZIP file of real JavaScript that you upload to a host to put your bot online. |
 
-- Built-in secrets (environment variables)
+## Getting started
 
-- Built-in and user-made templates
+1. [Create a Discord bot](Guide/creating-a-bot.md) in the Discord Developer Portal
+2. [Create a DisFuse project](Guide/creating-a-project.md) for it
+3. [Learn your way around the editor](Guide/the-editor.md)
+4. [Build your first slash command](Interactions/slash.md)
+5. [Export the code and run it](Guide/running-your-bot.md)
 
-- Easy-to-use and organized environment
+Then you have a fully functioning Discord bot.
 
-- Workspace settings
+## Where to go next
 
-## Getting Started
+- **[Blocks](Blocks/using-blocks.md)** is the reference: one page for every category in the toolbox.
+- **[Interactions](Interactions/interactions.md)** covers slash commands, context menus and modals in depth.
+- **[Features](Features/premium.md)** covers everything outside the editor: Insights, Control, Websites and the Workshop.
+- **[Help](Help/faq.md)** answers the questions that come up most often.
 
-1. Create a Discord Bot
+## Getting help
 
-2. Create a DisFuse project
-
-3. Use blocks to make commands and features
-
-4. Export the code and run it
-
-Then you have a fully functioning Discord bot!
+If you get stuck, [join the DisFuse Discord server](https://dsc.gg/disfuse) and post in the support channel. Bring a screenshot of your blocks and a description of what you expected to happen. That is almost always enough for someone to spot the problem.
