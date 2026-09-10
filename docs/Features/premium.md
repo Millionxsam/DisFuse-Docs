@@ -11,28 +11,28 @@ Everything in DisFuse's block editor is free. Premium adds the features that sit
 
 ## What is included
 
-| Feature | What it does |
-| --- | --- |
-| **[Bot Control](control.md)** | A full Discord client for any bot you own, covering servers, channels, DMs and members, live. |
-| **Act as your bot** | Send, edit and delete messages, reply, react and attach files as the bot itself. |
-| **Moderate from DisFuse** | Kick, ban, time out, manage roles, and change channel and server settings without leaving the site. |
-| **[Bot Insights](insights.md)** | Commands, users, servers and activity trends for every bot you own. |
-| **Live event logs** | Every command, button, join, leave and error your bot reports, as it happens. |
-| **Up to 90 days of history** | Choose how long Insight logs are kept, up to three months. |
-| **Unlimited [websites](websites.md)** | One site per bot, each on its own public URL. |
-| **Visual website builder** | Pages, themes, fonts and colors, without writing code. |
-| **Bot dashboards** | Let server owners configure your bot by logging in with Discord. |
-| **[Project versions](../Guide/version-control.md)** | Snapshot the whole project, come back to any of them, and build the next iteration safely. |
+| Feature                                             | What it does                                                                                        |
+| --------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **[Bot Control](control.md)**                       | A full Discord client for any bot you own, covering servers, channels, DMs and members, live.       |
+| **Act as your bot**                                 | Send, edit and delete messages, reply, react and attach files as the bot itself.                    |
+| **Moderate from DisFuse**                           | Kick, ban, time out, manage roles, and change channel and server settings without leaving the site. |
+| **[Bot Insights](insights.md)**                     | Commands, users, servers and activity trends for every bot you own.                                 |
+| **Live event logs**                                 | Every command, button, join, leave and error your bot reports, as it happens.                       |
+| **Up to 90 days of history**                        | Choose how long Insight logs are kept, up to three months.                                          |
+| **Unlimited [websites](websites.md)**               | One site per bot, each on its own public URL.                                                       |
+| **Visual website builder**                          | Pages, themes, fonts and colors, without writing code.                                              |
+| **Bot dashboards**                                  | Let server owners configure your bot by logging in with Discord.                                    |
+| **[Project versions](../Guide/version-control.md)** | Snapshot the whole project, come back to any of them, and build the next iteration safely.          |
 
 Every plan unlocks all of it. The only difference is how you pay.
 
 ## Plans
 
-| Plan | Price |
-| --- | --- |
-| **Premium** | $4.99 per month |
+| Plan               | Price           |
+| ------------------ | --------------- |
+| **Premium**        | $4.99 per month |
 | **Premium Yearly** | $44.99 per year |
-| **Lifetime** | $99, paid once |
+| **Lifetime**       | $99, paid once  |
 
 ## Subscribing
 
@@ -52,15 +52,13 @@ Subscribers get a Premium role in the [DisFuse Discord server](https://dsc.gg/di
 
 ## If your subscription ends
 
-Nothing is deleted, and nothing you have built stops working.
-
-| Feature | What happens |
-| --- | --- |
+| Feature             | What happens                                                                                    |
+| ------------------- | ----------------------------------------------------------------------------------------------- |
 | **Version Control** | Your versions stay. You can read, switch to and export any of them. You cannot create new ones. |
-| **Websites** | Published sites stay up and keep serving. You cannot edit or publish them. |
-| **Insights** | Your bot keeps reporting. The dashboard is locked until you resubscribe. |
-| **Control** | Sessions end and cannot be reopened. |
-| **Your blocks** | Untouched. The editor is free and always will be. |
+| **Websites**        | Published sites can no longer be accessed by bot users, and you cannot edit or publish them.    |
+| **Insights**        | Your bot keeps reporting. The dashboard is locked until you resubscribe.                        |
+| **Control**         | Sessions end and cannot be reopened.                                                            |
+| **Your blocks**     | Untouched. The editor is free and always will be.                                               |
 
 ## What stays free
 
