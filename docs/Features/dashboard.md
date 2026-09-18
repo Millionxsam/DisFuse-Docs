@@ -14,9 +14,9 @@ The dashboard is everything on the DisFuse website outside the block editor. Thi
 | Item | What it is |
 | --- | --- |
 | **Projects** | Your bots, and the projects you have been invited to. |
-| **Control** | Act as any bot you own. [Premium](premium.md). See [Bot Control](control.md). |
-| **Insights** | What your bots are doing. [Premium](premium.md). See [Insights](insights.md). |
-| **Websites** | Build and publish a site for a bot. [Premium](premium.md). See [Websites](websites.md). |
+| **Control** | Act as any bot you own. See [Bot Control](control.md). |
+| **Insights** | What your bots are doing. See [Insights](insights.md). |
+| **Websites** | Build and publish a site for a bot. See [Websites](websites.md). |
 | **Explore** | Public projects and bots made by other people. See [Explore](explore.md). |
 | **Favorites** | Projects you saved. |
 | **Workshop** | Block packs to install, and your own to build. See [Workshop](workshop.md). |

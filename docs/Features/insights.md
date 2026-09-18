@@ -10,7 +10,7 @@ Insights shows you what your bot is actually doing: which commands people run, w
 ![The Insights dashboard](media/insights-bot.png)
 
 :::info
-Insights is a [DisFuse Premium](premium.md) feature, and only the bot's owner can see it.
+Insights is free for every bot, and only the bot's owner can see it. Free accounts keep 7 days of history; [DisFuse Premium](premium.md) keeps up to 90.
 :::
 
 ## How it works
@@ -114,7 +114,7 @@ This is where you go when a specific person says a specific command failed.
 
 At the bottom of the dashboard are the data settings.
 
-**Retention** is how long DisFuse keeps individual log rows: 7, 14, 30, 60 or 90 days. Lifetime totals are always kept, whatever you choose.
+**Retention** is how long DisFuse keeps individual log rows: 7, 14, 30, 60 or 90 days. Free accounts can keep up to 7 days, and [DisFuse Premium](premium.md) unlocks up to 90. Lifetime totals are always kept, whatever you choose.
 
 **Clear insight data** deletes the stored logs for that bot. You are asked to confirm first, and it cannot be undone.
 

@@ -10,7 +10,7 @@ Control is a Discord client that acts **as your bot**. You open it on the DisFus
 ![The Control client](media/control-channel.png)
 
 :::info
-Control is a [DisFuse Premium](premium.md) feature, and only the bot's owner can use it. Collaborators cannot, even on a project they can edit.
+Control is free for every bot, and only the bot's owner can use it. Collaborators cannot, even on a project they can edit.
 :::
 
 ## What it is for

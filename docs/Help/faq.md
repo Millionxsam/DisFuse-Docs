@@ -13,7 +13,7 @@ No. That is the point of DisFuse. You will pick up some ideas along the way, bec
 
 ### Is DisFuse free?
 
-The editor is free, with unlimited projects, unlimited blocks and unlimited exports. [DisFuse Premium](../Features/premium.md) adds Insights, Control, Websites and Version Control.
+Yes. The editor, Insights, Control, Websites and Version Control are all free, with up to 5 projects, 5 websites, 3 versions per project and 7 days of Insights history. [DisFuse Premium](../Features/premium.md) raises those to 30 projects, 30 websites, 25 versions and 90 days, and adds priority support. Plans start at $1.99 per month.
 
 ### Does DisFuse host my bot?
 
@@ -105,7 +105,7 @@ Yes. It is on your account, so every project you own gets it.
 
 ### What happens if I cancel?
 
-Nothing is deleted. Your versions stay readable, your websites stay published, and your blocks are untouched. You just cannot create new versions, edit websites, or open Insights and Control. See [Premium](../Features/premium.md).
+Nothing you have is deleted. Your projects, versions and websites stay, and you can keep using every feature. Your account goes back to the free limits, so you cannot create more projects, websites or versions while you are over them, and Insights keeps 7 days of history. See [Premium](../Features/premium.md).
 
 ## Still stuck?
 

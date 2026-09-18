@@ -23,7 +23,7 @@ Only the project owner can invite or remove collaborators.
 | --- | --- |
 | Open the project and edit its blocks | See or change [secrets](secrets.md) |
 | Create, rename and delete workspaces | See or change the bot token |
-| Use [Version Control](version-control.md), if the owner has Premium | Invite other collaborators |
+| Use [Version Control](version-control.md) | Invite other collaborators |
 | Export the project | Change project settings or visibility |
 | | Delete the project |
 | | Use [Insights](../Features/insights.md) or [Control](../Features/control.md) on the bot |

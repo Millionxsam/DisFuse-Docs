@@ -5,34 +5,31 @@ title: DisFuse Premium
 
 # DisFuse Premium
 
-Everything in DisFuse's block editor is free. Premium adds the features that sit around it: seeing what your bot does, controlling it from the website, giving it a real web dashboard, and keeping versions of your project.
+Every DisFuse feature is free: the block editor, [Bot Control](control.md), [Insights](insights.md), [Websites](websites.md) and [Version Control](../Guide/version-control.md). Premium raises how much you can keep, and gets you priority support.
 
 ![Premium settings](media/settings-premium.png)
 
-## What is included
+## Free and Premium
 
-| Feature                                             | What it does                                                                                        |
-| --------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| **[Bot Control](control.md)**                       | A full Discord client for any bot you own, covering servers, channels, DMs and members, live.       |
-| **Act as your bot**                                 | Send, edit and delete messages, reply, react and attach files as the bot itself.                    |
-| **Moderate from DisFuse**                           | Kick, ban, time out, manage roles, and change channel and server settings without leaving the site. |
-| **[Bot Insights](insights.md)**                     | Commands, users, servers and activity trends for every bot you own.                                 |
-| **Live event logs**                                 | Every command, button, join, leave and error your bot reports, as it happens.                       |
-| **Up to 90 days of history**                        | Choose how long Insight logs are kept, up to three months.                                          |
-| **Unlimited [websites](websites.md)**               | One site per bot, each on its own public URL.                                                       |
-| **Visual website builder**                          | Pages, themes, fonts and colors, without writing code.                                              |
-| **Bot dashboards**                                  | Let server owners configure your bot by logging in with Discord.                                    |
-| **[Project versions](../Guide/version-control.md)** | Snapshot the whole project, come back to any of them, and build the next iteration safely.          |
+| Limit                                                        | Free    | Premium  |
+| ------------------------------------------------------------ | ------- | -------- |
+| **Projects**                                                 | 5       | 30       |
+| **[Websites](websites.md)**                                  | 5       | 30       |
+| **[Versions](../Guide/version-control.md) per project**      | 3       | 25       |
+| **[Insights](insights.md) history**                          | 7 days  | 90 days  |
+| **Priority support**                                         | No      | Yes      |
+
+Every website belongs to one of your projects, so the website limit follows the project limit.
 
 Every plan unlocks all of it. The only difference is how you pay.
 
 ## Plans
 
-| Plan               | Price           |
-| ------------------ | --------------- |
-| **Premium**        | $4.99 per month |
-| **Premium Yearly** | $44.99 per year |
-| **Lifetime**       | $99, paid once  |
+| Plan               | Price            |
+| ------------------ | ---------------- |
+| **Premium**        | $1.99 per month  |
+| **Premium Yearly** | $19.99 per year  |
+| **Lifetime**       | $49.99, paid once |
 
 ## Subscribing
 
@@ -52,24 +49,30 @@ Subscribers get a Premium role in the [DisFuse Discord server](https://dsc.gg/di
 
 ## If your subscription ends
 
-| Feature             | What happens                                                                                    |
-| ------------------- | ----------------------------------------------------------------------------------------------- |
-| **Version Control** | Your versions stay. You can read, switch to and export any of them. You cannot create new ones. |
-| **Websites**        | Published sites can no longer be accessed by bot users, and you cannot edit or publish them.    |
-| **Insights**        | Your bot keeps reporting. The dashboard is locked until you resubscribe.                        |
-| **Control**         | Sessions end and cannot be reopened.                                                            |
-| **Your blocks**     | Untouched. The editor is free and always will be.                                               |
+Your account goes back to the free limits. Nothing you already have is deleted, hidden or locked.
 
-## What stays free
+| Feature             | What happens                                                                                                     |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Projects**        | You keep every project. You cannot create new ones until you are under 5.                                        |
+| **Websites**        | Your websites stay published and editable. You cannot create new ones until you are under 5.                     |
+| **Version Control** | Your versions stay. You can read, switch to, rename, delete and export them. You cannot create new ones in a project until it has fewer than 3. |
+| **Insights**        | Your bot keeps reporting. History is kept for 7 days, so older logs are cleared. Lifetime totals are kept.       |
+| **Your blocks**     | Untouched. The editor is free and always will be.                                                                |
 
-Everything that makes a bot:
+## What is free
+
+Everything, within the free limits:
 
 - Every block in the toolbox
-- Unlimited projects and workspaces
+- Up to 5 projects, with unlimited workspaces
 - Real-time collaboration
 - Secrets
+- [Bot Control](control.md), in full
+- [Insights](insights.md), with 7 days of history
+- [Websites](websites.md), including the visual builder and bot dashboards
+- [Version Control](../Guide/version-control.md), with up to 3 versions per project
 - The Workshop, both installing and publishing packs
 - Explore, favorites, likes, comments and cloning
 - Exporting your bot, as often as you like
 
-Premium is about what you do with a bot once it exists, not whether you can build one.
+Premium is about how much you can keep, not what you can do.

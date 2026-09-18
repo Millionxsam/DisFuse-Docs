@@ -8,7 +8,7 @@ title: Version Control
 A version is a snapshot of your whole project: every workspace, exactly as it was. You can switch between versions, work on one without touching the others, and come back to a version that worked when a change goes wrong.
 
 :::info
-Version Control is a [DisFuse Premium](../Features/premium.md) feature. Versions you have already made stay readable and usable if your subscription ends. You just cannot create new ones.
+Version Control is free, with up to 3 versions per project. [DisFuse Premium](../Features/premium.md) raises that to 25. It is optional: a project works without versions until you create the first one.
 :::
 
 ## Opening it
@@ -34,7 +34,9 @@ Click **New Version**. You choose where its blocks come from:
 
 Copying is the usual choice. It gives you a safe place to try a rewrite while the version people are actually running stays untouched.
 
-A project can hold up to 25 versions.
+A project can hold up to 3 versions on a free account, or 25 with [DisFuse Premium](../Features/premium.md). The limit follows the project owner's plan. If you reach it, delete a version to make room for a new one.
+
+If a Premium subscription ends, a project that already has more than 3 versions keeps all of them. You just cannot create new ones until it has fewer than 3.
 
 ## Switching
 
@@ -73,7 +75,7 @@ This is how you keep a stable version running while building the next one: expor
 - **Take a version before a big change.** Rewriting your economy? Copy the current version first, name it after what it was, and work in the new one.
 - **Keep one known-good version.** Whatever you have running on your host, keep a version that matches it, so you can always get back to what works.
 - **Name them after what changed**, not when. "Added tickets" tells you more than "v3".
-- **Delete versions you will not go back to.** Twenty-five is the limit, and a list of forgotten snapshots is not useful.
+- **Delete versions you will not go back to.** Versions count towards your limit, and a list of forgotten snapshots is not useful.
 
 ## Collaborators and versions
 

@@ -99,7 +99,7 @@ If your bot is in a server you own, drag its role to the top of the role list an
 
 ## Insights
 
-**No events at all.** Re-export. Reporting is written in at export time, so a build from before you had Premium does not report.
+**No events at all.** Re-export. Reporting is written in at export time, so a build exported before Insights was added does not report.
 
 **Events stopped.** The bot is offline, or `DISFUSE_INSIGHTS=off` is set in the environment.
 

@@ -10,7 +10,7 @@ Dashboard blocks read and write the settings people configure on your [DisFuse W
 ![The Dashboard category](media/categories/dashboard.png)
 
 :::info
-Dashboard blocks only do something when your bot has a DisFuse Website with dashboard controls on it. Websites are a [DisFuse Premium](../Features/premium.md) feature.
+Dashboard blocks only do something when your bot has a DisFuse Website with dashboard controls on it. Websites are free for every bot.
 :::
 
 ## Two scopes

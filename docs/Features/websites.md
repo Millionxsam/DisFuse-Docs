@@ -10,7 +10,7 @@ A DisFuse Website is a real web page for your bot, built with a drag-and-drop ed
 ![The website builder](media/websites-editor.png)
 
 :::info
-Websites are a [DisFuse Premium](premium.md) feature. Every bot you own can have one.
+Websites are free. Every bot you own can have one, up to 5 websites on a free account or 30 with [DisFuse Premium](premium.md).
 :::
 
 ## Creating one
