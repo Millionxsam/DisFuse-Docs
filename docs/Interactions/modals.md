@@ -30,6 +30,10 @@ A modal also cannot be shown in response to another modal, and it cannot be show
 
 `create modal with title ... custom ID ... components ...` builds the form. The **custom ID** is how you recognize the submission later.
 
+:::tip
+Right-click `show modal` or `create modal` and choose **Preview Modal** to see the form as Discord will draw it. See [Message and Modal Previews](../Guide/previews.md).
+:::
+
 ## Building the form
 
 ![Add component with label](../Blocks/media/blocks/modalc_label.png)

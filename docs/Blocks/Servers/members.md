@@ -61,11 +61,19 @@ Looping over every member in a large server is slow, and it needs the **Server M
 | ![created](../media/blocks/member_created.png) | When the account was made. |
 | ![status](../media/blocks/member_status.png) | Online, idle, do not disturb or offline. |
 | ![flags](../media/blocks/member_userFlags.png) | Discord account badges, as a list. |
+| ![has badge](../media/blocks/member_hasBadge.png) | True when a user has a specific profile badge: Discord Staff, Partnered Server Owner, HypeSquad, Bug Hunter, Early Supporter, Active Developer and so on. |
+| ![badge count](../media/blocks/member_badgeCount.png) | How many profile badges a user has. |
+| ![activity name](../media/blocks/member_activityName.png) | The name of what the member is doing right now, like the game they are playing. |
+| ![activity type](../media/blocks/member_activityType.png) | The kind of activity: Playing, Streaming, Listening, Watching, Custom or Competing. |
+| ![streaming](../media/blocks/member_isStreaming.png) | True when the member is streaming right now. |
+| ![activity elapsed](../media/blocks/member_activityElapsed.png) | How many seconds the member has spent on their current activity. |
 | ![is bot](../media/blocks/member_bot.png) | True when the account is a bot. |
 | ![is system](../media/blocks/member_system.png) | True when it is an official Discord account. |
 | ![dm channel](../media/blocks/member_dmChannel.png) | The DM channel with that user. |
 
 `creation date of user` is the block behind account-age checks. Comparing it against the current date catches brand new accounts joining during a raid.
+
+The activity blocks read the member's presence, so they need the **Presence** intent switched on in the Discord Developer Portal. Without it they come back empty. See [Events](../Events/events.md#intents).
 
 ## Permission and safety checks
 

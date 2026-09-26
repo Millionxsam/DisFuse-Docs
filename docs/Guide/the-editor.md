@@ -40,7 +40,7 @@ Across the top, from left to right:
 ![The Utilities menu](../Features/media/editor-utilities-menu.png)
 
 - **Secrets** opens the [secrets](secrets.md) panel. Owners only.
-- **Templates** loads a ready-made block arrangement. See [Templates](templates.md).
+- **Templates** opens the template gallery, where you can add community and official templates to your project. See [Templates](templates.md).
 - **Toggle Toolbox** hides the toolbox, giving you the full window for the canvas.
 
 ## The workspace tabs
@@ -75,13 +75,24 @@ Where your blocks live.
 
 ![The canvas menu](../Features/media/editor-context-menu.png)
 
-Options for the whole workspace: undo, redo, clean up the layout, collapse or expand every block, delete everything, and move blocks to another workspace.
+Options for the whole workspace: undo, redo, clean up the layout, collapse or expand every block, delete everything, move blocks to another workspace, and **Save Workspace as Template**.
 
 ### Right-click on a block
 
 ![The block menu](../Features/media/editor-block-menu.png)
 
 Options for one block: duplicate, add a comment, collapse, disable, delete, and help.
+
+A few more appear depending on the block:
+
+| Item | What it does |
+| --- | --- |
+| **Help** | Opens the docs page for that block. |
+| **Preview Message** | Shows the message this block sends, as Discord will draw it. See [Previews](previews.md). |
+| **Preview Modal** | Shows the modal this block builds. See [Previews](previews.md). |
+| **Copy JavaScript Code** | Copies the code this block generates. |
+| **Move to workspace** | Moves the block to another [workspace](workspaces.md). |
+| **Save as Template** | Starts a new [template](templates.md) from a copy of this block. |
 
 **Disable** is worth knowing. A disabled block stays where it is but is left out of the exported code, which is the neat way to switch a feature off without losing the work.
 
