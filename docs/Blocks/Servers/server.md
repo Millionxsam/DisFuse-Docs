@@ -20,7 +20,7 @@ Blocks about a whole Discord server: its name, its members, its icon, and its bo
 
 `get the server with the name equal to ...` looks a server up. It also accepts a server ID, which is more reliable, since two servers can share a name.
 
-Most of the time you do not need this block. Event blocks already hand you a server, and interaction blocks have `server of the interaction`.
+Most of the time you do not need this block. Event blocks already hand you a server, interaction blocks have `server of the interaction`, and `server of channel` from [Channels](channels.md#reading-a-channel) gets the server any channel belongs to.
 
 ![For each server](../media/blocks/server_getall.png)
 

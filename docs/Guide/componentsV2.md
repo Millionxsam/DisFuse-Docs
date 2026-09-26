@@ -26,6 +26,10 @@ All message components are inside of the "Components" category in the toolbox. W
 
 ![Components category in DisFuse](media/componentsv2/image-2.png)
 
+:::tip
+Right-click the block that sends your message and choose **Preview Message** to see it drawn the way Discord will show it, without running your bot. See [Message and Modal Previews](previews.md).
+:::
+
     **Learn more about each type of component:**
 
 <details>

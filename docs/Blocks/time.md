@@ -15,9 +15,28 @@ Time blocks create dates, convert between units, and turn durations into text a 
 | --- | --- |
 | ![now in ms](media/blocks/time_date_now.png) | The current time as a number of milliseconds. |
 | ![current date](media/blocks/time_date.png) | The current time as a date. |
-| ![create date](media/blocks/time_createdate.png) | A date built from a millisecond value. |
+| ![create date](media/blocks/time_createdate.png) | A date built from a millisecond timestamp, or from date text like `2026-09-22T15:00` or `September 22, 2026 3:00 PM`. A time on its own, like `3:00`, is not a date. |
 
 A **timestamp** is a plain number: how many milliseconds have passed since the start of 1970. A **date** is a richer value that Discord blocks understand. `create date from time` converts one into the other.
+
+## Time of day
+
+![When the time is](media/blocks/time_whenTime.png)
+
+`when the time is ... in ...` runs the blocks inside every day when the clock reaches that time. It is an event of its own: put it anywhere, not inside another event. The last dropdown picks the time zone; the default is the local time of the machine your bot runs on.
+
+Any of the three fields can be set to **any**, which matches every value:
+
+| Setting | Runs |
+| --- | --- |
+| 15 : 00 : 00 | Every day at 3:00pm |
+| any : 00 : 00 | Every hour, on the hour |
+| any : any : 00 | Every minute |
+| 15 : 00 : any | Once a second for the whole minute of 3:00pm |
+
+![Is the time](media/blocks/time_isTime.png)
+
+`is the time ... in ...` is true when the clock matches, on any day. Use it in an `if` to only allow something at certain hours: `is the time 22 : any : any` is true for the whole hour from 10pm.
 
 ## Discord timestamps
 
@@ -55,6 +74,11 @@ This is much better than writing a date yourself, because Discord shows it in ea
 | ![ms to string](media/blocks/time_msToString.png) | Turns milliseconds into text like `10m` or, with long display on, `10 minutes`. |
 
 These two are what make a `/mute @user 10m` command possible: read the duration as text from the slash command option, convert it with `turn time string to milliseconds`, and pass the result to the timeout block.
+
+## A worked example: a daily message
+
+1. Drag out `when the time is` and set it to `09 : 00 : 00` in your time zone.
+2. Inside it, `get channel with ID` and send "Good morning!" to it.
 
 ## Example
 

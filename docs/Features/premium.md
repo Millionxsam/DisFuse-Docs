@@ -21,6 +21,14 @@ Every DisFuse feature is free: the block editor, [Bot Control](control.md), [Ins
 
 Every website belongs to one of your projects, so the website limit follows the project limit.
 
+## Seeing your usage
+
+The Projects and Websites pages, and **Settings > Premium**, show how much of your limit you are using.
+
+![Plan usage](media/premium-plan-usage.png)
+
+Only projects and websites you **own** count. The ones you collaborate on do not. When you reach a limit, creating or cloning another one tells you so, and you can make room by deleting one or upgrading.
+
 Every plan unlocks all of it. The only difference is how you pay.
 
 ## Plans

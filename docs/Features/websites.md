@@ -86,6 +86,23 @@ The Site tab sets the theme for everything at once: the color palette, the fonts
 
 ![Site settings](media/websites-site-settings.png)
 
+## Discord link preview
+
+When someone pastes your site's link in Discord, Discord shows a small card for it. At the bottom of the Site tab, **Discord link preview** lets you replace that plain card with your own.
+
+![The Discord link preview settings](media/websites-discord-preview.png)
+
+Switch on **Custom preview**, then fill in:
+
+| Setting | What it does |
+| --- | --- |
+| **Content** | The preview's text, in Markdown. Leave it empty to use the title and description from the search engine preview. |
+| **Image URL** | An image shown beside the text. Leave it empty to use the favicon. |
+| **Accent color** | The bar down the left edge. Defaults to your theme's primary color. |
+| **Buttons** | Up to 3 link buttons shown under the preview, each with a label and a URL. |
+
+The preview is only a picture of your site: no bot receives anything when someone looks at it, and its buttons can only be links. Changes apply as soon as they are saved, but Discord caches link previews for a while, so an old one can linger in chats where the link was already posted.
+
 ## Responsive design
 
 Use the desktop, tablet and mobile buttons at the top to check each width, and **Preview** to see the page without the editing handles.

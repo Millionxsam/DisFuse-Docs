@@ -53,6 +53,12 @@ Type in the box at the bottom and press Enter. The message is sent by your bot, 
 
 The icons beside the box open the richer options.
 
+### Emoji
+
+![The emoji picker](media/control-emoji-picker.png)
+
+The smiley opens an emoji picker with every standard emoji, a search box, skin tones and your recently used ones, plus the server's own custom emoji. The same picker opens when you add a reaction to a message.
+
 ### Embeds
 
 ![The embed builder](media/control-embed-builder.png)

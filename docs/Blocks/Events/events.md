@@ -15,6 +15,7 @@ An event block runs its contents when something happens in Discord. Everything a
 | [Boosts](boosts.md) | Somebody boosts, unboosts, or the server's boost level changes |
 | [Message Actions](message-actions.md) | A message is deleted, edited, pinned, replied to, or reacted to |
 | [Member Actions](member-actions.md) | A role is given or taken, or a nickname changes |
+| [Voice Actions](voice-actions.md) | A member joins or leaves a voice channel |
 | [Thread Actions](thread-actions.md) | A thread is created or deleted |
 | [Emojis and Stickers](emojis-stickers.md) | An emoji or sticker is created, deleted or changed |
 | [Custom](custom.md) | Any discord.js event that does not have a block of its own |
@@ -48,7 +49,8 @@ Discord will not send your bot some events unless the matching **intent** is swi
 | Intent | Needed for |
 | --- | --- |
 | Server Members | Joins, leaves, role changes, nickname changes, member loops |
-| Presence | Member online status |
+| Presence | Member online status and activities |
+| Server Voice States | Voice channel joins and leaves |
 | Message Content | The text of messages the bot was not mentioned in |
 
 If an event never fires and the blocks look right, an intent is the first thing to check. See [Creating a Discord bot](../../Guide/creating-a-bot.md).

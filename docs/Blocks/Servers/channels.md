@@ -55,6 +55,7 @@ Right after sending, `message sent by the bot` is the message that just went out
 | ![url](../media/blocks/channel_url.png) | A link that jumps to it. |
 | ![topic](../media/blocks/channel_gettopic.png) | The channel topic. |
 | ![category](../media/blocks/channel_getParent.png) | The category it sits in. |
+| ![server](../media/blocks/channel_getServer.png) | The server the channel belongs to. Plug it into any [Server](server.md) block. |
 | ![slowmode](../media/blocks/channel_getslowmode.png) | Its slowmode, in seconds. |
 | ![nsfw](../media/blocks/channel_getnsfw.png) | Whether it is marked age restricted. |
 | ![type](../media/blocks/channel_gettype.png) | Whether it is a given kind of channel. |

@@ -13,13 +13,16 @@ This category is where DisFuse talks to the world outside Discord: other website
 | --- | --- |
 | [Scratch](scratch.md) | Reads public profile information from Scratch |
 | [Roblox](roblox.md) | Reads public information about Roblox users, groups and games |
+| [Minecraft](minecraft.md) | Reads public Minecraft accounts and live server status |
+| [GitHub](github.md) | Reads GitHub users, repositories, issues and more, and acts as your account with a token |
+| [WebSockets](websockets.md) | Keeps a live connection to a server, or runs your own server for websites and apps |
 | [Captcha](captcha.md) | Generates a captcha image for verification |
 | [Fetch](fetch.md) | Sends a request to any web API |
 | [Canvas](canvas.md) | Draws images your bot can send |
 
 ## When to use Fetch instead
 
-Scratch and Roblox have their own blocks because they come up often. For anything else, [Fetch](fetch.md) can talk to any API that speaks HTTP, which is nearly all of them. If you want weather, currency rates, a random cat picture or your own web service, Fetch is the block.
+Scratch, Roblox, Minecraft and GitHub have their own blocks because they come up often. For anything else, [Fetch](fetch.md) can talk to any API that speaks HTTP, which is nearly all of them. If you want weather, currency rates, a random cat picture or your own web service, Fetch is the block.
 
 ## These blocks are slow
 
