@@ -28,9 +28,9 @@ Right after sending, `message sent by the bot` is the message that just went out
 
 ![Send message in channel with allowed pings](../media/blocks/cv2_sendMessage_pings.png)
 
-By default, a message your bot sends pings nobody. Mentions still show up in the message, but nobody gets a notification. This stops people from using your bot to ping a role or @everyone just by getting it to repeat what they typed.
+By default, a message your bot sends can only ping users. Role, `@everyone` and `@here` mentions still show up in the message, but nobody gets a notification. This stops people from using your bot to ping a role or everyone just by getting it to repeat what they typed.
 
-To let a message ping, click the gear on the block and tick **include allowed pings**. An **allowed pings** row appears on the block. Tick the pings you want this message to send:
+To change which pings are allowed, click the gear on the block and tick **include allowed pings**. An **allowed pings** row appears on the block. Tick the pings you want this message to send:
 
 | Option | What it allows |
 | --- | --- |
@@ -38,10 +38,12 @@ To let a message ping, click the gear on the block and tick **include allowed pi
 | **roles** | Mentions of roles |
 | **@everyone & @here** | `@everyone` and `@here` |
 
+The gear only shows or hides the row. Your choices still apply when the row is hidden.
+
 Every block that sends, replies to or edits a message has this option, including DMs, interaction replies, webhooks and polls.
 
 :::info
-Projects made before this option existed keep pinging like they always did. Their blocks have **allowed pings** turned on with every ping ticked, so nothing changes until you untick them.
+Projects made before this option existed keep pinging like they always did. Their blocks allow all three pings, with the row hidden. Show the row from the gear to change that.
 :::
 
 ## Getting a channel
