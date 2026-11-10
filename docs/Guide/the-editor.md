@@ -25,7 +25,7 @@ Across the top, from left to right:
 | **Save state** | Saving, saved, reconnecting, or an error. |
 | **Versions** | Opens [Version Control](version-control.md). Shows the active version's name. |
 | **Invite** | Opens the [collaborators](collaboration.md) panel. |
-| **Export** | Downloads your bot as a ZIP. See [Running your bot](running-your-bot.md). |
+| **Export** | Downloads your bot as a ZIP, or just its `index.js`. See [Running your bot](running-your-bot.md). |
 
 ### The File menu
 
