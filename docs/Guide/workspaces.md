@@ -19,6 +19,7 @@ Think of them as files in a folder. Splitting a bot across several makes it far 
 | Create one | Click the plus at the end of the tab bar. |
 | Rename one | Click the pencil on the active tab. |
 | Delete one | Click the bin on the active tab. |
+| Reorder them | Drag a tab left or right to where you want it. |
 | Hide the tab bar | Click the arrow next to the project name. |
 
 ![The workspace manager](../Features/media/editor-workspace-tabs.png)
