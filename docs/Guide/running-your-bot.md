@@ -21,6 +21,12 @@ Export the whole thing unless you are deliberately testing one workspace on its 
 
 Click **Download ZIP**.
 
+### Download only the code
+
+Already have your bot set up on a host? Click **Download file** instead of **Download ZIP**. You get just `index.js`, the bot's code, with no ZIP to extract and delete afterwards. Replace the old `index.js` on your host with it.
+
+This is only for updating a bot that already runs. `index.js` alone has no `package.json` or `.env`, so a first export needs the ZIP. If you added blocks that need a new library, export the ZIP again so `package.json` lists it.
+
 :::info
 The exported files are a snapshot. Change your blocks and you have to export again and re-upload, or your host keeps running the old code.
 :::
