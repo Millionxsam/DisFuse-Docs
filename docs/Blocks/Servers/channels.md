@@ -84,6 +84,7 @@ Projects made before this option existed keep pinging like they always did. Thei
 | ![created](../media/blocks/channel_created.png) | When it was created. |
 | ![deletable](../media/blocks/channel_deletable.png) | Whether the bot is allowed to delete it. |
 | ![manageable](../media/blocks/channel_manageable.png) | Whether the bot is allowed to change it. |
+| ![voice member count](../media/blocks/channel_voiceMemberCount.png) | How many members are connected to a voice or stage channel right now. Returns 0 for any other kind of channel. |
 
 ## Changing a channel
 
