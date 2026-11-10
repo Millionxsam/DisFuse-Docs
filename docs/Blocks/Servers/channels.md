@@ -75,6 +75,7 @@ Right after sending, `message sent by the bot` is the message that just went out
 | ![sync permissions](../media/blocks/channel_syncPerms.png) | Resets its permissions to match its category. |
 | ![set position](../media/blocks/channel_setPosition.png) | Moves it up or down the channel list. |
 | ![auto archive](../media/blocks/channel_setautoarchive.png) | Sets how long threads stay active before archiving. |
+| ![move member](../media/blocks/channel_moveMember.png) | Moves a member to another voice channel. Does nothing if the member is not in a voice channel. |
 | ![delete](../media/blocks/channel_del.png) | Deletes the channel. |
 
 Most of these accept a **reason**, which is written into the server's audit log.
