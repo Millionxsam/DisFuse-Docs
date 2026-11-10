@@ -26,7 +26,15 @@ Everything you do with a single message: catch it when it arrives, read it, repl
 
 ![Message received](../media/blocks/msg_msg.png)
 
-Inside either event, `message received` is the message itself.
+Inside any of these events, `message received` is the message itself.
+
+## When the bot receives a DM
+
+![When the bot receives a DM](../media/blocks/msg_dm_received.png)
+
+`when the bot receives a DM` fires when someone sends your bot a direct message. Messages sent in servers are ignored, and so are messages from bots, so replying to a DM won't make your bot answer itself.
+
+Use `message received` inside it just like the other message events. `content of the message`, `channel of the message` and the reply blocks all work here, and `get author (user) of message received` gives you the person who sent the DM. There is no server or member in a DM, so blocks that read the server or the member who sent the message don't belong in this event.
 
 ## Reading a message
 
