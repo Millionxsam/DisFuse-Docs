@@ -93,6 +93,10 @@ Yes. The export is a snapshot. Change your blocks and your host is still running
 
 In [project settings](../Guide/project-settings.md). There is no token block any more.
 
+### My old project says "Project Setup Incomplete"
+
+Projects made before bot tokens moved to [project settings](../Guide/project-settings.md) kept the token in a "log in to bot with token" block. When you open one of these projects, click **Convert automatically** in the popup and DisFuse moves the token from that block into your project settings and fills in your bot's details. The button only appears if the project still has a token block with the token typed into it; otherwise, click **Edit project** and paste your bot token there.
+
 ### Can somebody steal my bot from a public project?
 
 No. Your bot token and your [secrets](../Guide/secrets.md) are never public, whatever your project visibility is. People can read your blocks, not your credentials.
