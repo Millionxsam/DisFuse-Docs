@@ -58,6 +58,8 @@ To fetch several at once, use `get last ... messages of channel` from [Channels]
 
 Both take a **components** input. See [Components](../Components/components.md) for what goes in it.
 
+Messages only ping users unless you change it with the gear on the block. See [Allowing pings](../Servers/channels.md#allowing-pings).
+
 :::info
 A bot can only edit its own messages. Discord does not allow anything else.
 :::
