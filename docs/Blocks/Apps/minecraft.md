@@ -22,7 +22,7 @@ Blocks for reading public Minecraft information: Java Edition accounts and the l
 
 ![Minecraft user info](../media/blocks/minecraft_userInfo.png)
 
-Inside that part, `get ... of Minecraft user` reads a property of the account: username, UUID, ID without dashes, skin and cape texture URLs, avatar and full body image URLs, or a profile link.
+Inside that part, `get ... of Minecraft user` reads a property of the account: username, UUID, ID without dashes, skin and cape texture URLs, skin model (classic or slim), avatar and full body image URLs, or a profile link.
 
 ### Quick lookups
 
@@ -33,6 +33,7 @@ These do not need the user fetched first:
 | ![exists](../media/blocks/minecraft_userExists.png) | True when an account has that username. |
 | ![uuid](../media/blocks/minecraft_userUUID.png) | The account's UUID, or null if it does not exist. |
 | ![avatar](../media/blocks/minecraft_userAvatar.png) | A link to an image built from the player's current skin: a 2D face, a 3D head, a 3D full body, or the flat skin. Great as an embed thumbnail. |
+| ![name from uuid](../media/blocks/minecraft_usernameFromUUID.png) | The current username of a UUID, with or without dashes. |
 
 ## Servers
 
@@ -50,8 +51,22 @@ These do not need the user fetched first:
 | --- | --- |
 | ![online](../media/blocks/minecraft_serverOnline.png) | True when the server answers. |
 | ![player online](../media/blocks/minecraft_isPlayerOnServer.png) | True when a player with that name is in the server's player list. |
+| ![quick info](../media/blocks/minecraft_serverQuickInfo.png) | The players online, max players, MOTD, version or list of online players, without getting the server first. |
+| ![server image](../media/blocks/minecraft_serverImage.png) | A link to a Java server's icon, or to a banner image showing its live status. Great in embeds. |
 
 Not every server shares its player list in its status ping. On those, `has player online` says false even while the player is on.
+
+## Server status alerts
+
+![On server status](../media/blocks/minecraft_onServerStatus.png)
+
+`when Minecraft ... server ... goes online/offline` goes on its own in the workspace, not inside an event. It pings the server every few minutes (at least 1) and runs the blocks inside when the server comes up or goes down. Use `get ... of Minecraft server` inside it.
+
+## Game versions
+
+![Latest version](../media/blocks/minecraft_latestVersion.png)
+
+`latest Minecraft release/snapshot version` gives the newest Java Edition version number.
 
 ## A worked example: a server status command
 
