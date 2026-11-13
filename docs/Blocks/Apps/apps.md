@@ -16,6 +16,12 @@ This category is where DisFuse talks to the world outside Discord: other website
 | [Minecraft](minecraft.md) | Reads public Minecraft accounts and live server status, and alerts when a server goes up or down |
 | [YouTube](youtube.md) | Reads videos and channels, and notifies about new uploads and livestreams |
 | [Reddit](reddit.md) | Reads posts, comments, subreddits and users, feeds new posts, and posts as your account |
+| [Twitch](twitch.md) | Checks live streams, notifies when a channel goes live, and reads channels, videos and clips |
+| [Kick](kick.md) | Reads Kick channels and streams, and notifies when a channel goes live |
+| [X (Twitter)](x.md) | Reads public posts and profiles, notifies about new posts, and posts as your account |
+| [Instagram](instagram.md) | Reads your account and posts, publishes photos, reels and stories, and manages comments |
+| [TikTok](tiktok.md) | Checks accounts, reads your videos, notifies about new ones, and uploads videos |
+| [Bluesky](bluesky.md) | Reads public posts and profiles, notifies about new posts, and posts and reacts as your account |
 | [GitHub](github.md) | Reads GitHub users, repositories, issues and more, and acts as your account with a token |
 | [WebSockets](websockets.md) | Keeps a live connection to a server, or runs your own server for websites and apps |
 | [Captcha](captcha.md) | Generates a captcha image for verification |
@@ -24,7 +30,7 @@ This category is where DisFuse talks to the world outside Discord: other website
 
 ## When to use Fetch instead
 
-Scratch, Roblox, Minecraft, YouTube, Reddit and GitHub have their own blocks because they come up often. For anything else, [Fetch](fetch.md) can talk to any API that speaks HTTP, which is nearly all of them. If you want weather, currency rates, a random cat picture or your own web service, Fetch is the block.
+Scratch, Roblox, Minecraft, YouTube, Reddit, Twitch, Kick, X, Instagram, TikTok, Bluesky and GitHub have their own blocks because they come up often. For anything else, [Fetch](fetch.md) can talk to any API that speaks HTTP, which is nearly all of them. If you want weather, currency rates, a random cat picture or your own web service, Fetch is the block.
 
 ## These blocks are slow
 
