@@ -25,13 +25,23 @@ Put this block inside `when the bot is logged in` from [Main](../main.md), befor
 
 You can create several databases. Keeping economy data and server settings in separate files makes both easier to inspect by hand.
 
+## Picking a database
+
+Every other database block has a dropdown for the database it works on. The dropdown lists the name of every `create database` block in your project, in any of its workspace tabs, so there is no name to type and no typo to make.
+
+If a block's database no longer exists, for example because you renamed or deleted its `create database` block, the block shows a warning until you pick another one.
+
+:::note
+Older projects may still use the database blocks where the name was typed into a text box. They keep working. You can find them in the **Legacy** category, but new projects should use the dropdown versions.
+:::
+
 ## Reading
 
 | Block | Returns |
 | --- | --- |
-| ![get](../media/blocks/db_get.png) | The value stored under a key, or nothing if it is not there. |
-| ![has](../media/blocks/db_has.png) | True when the key exists. |
-| ![all](../media/blocks/db_all.png) | Everything in the database, as a list. |
+| ![get](../media/blocks/db_get_v2.png) | The value stored under a key, or nothing if it is not there. |
+| ![has](../media/blocks/db_has_v2.png) | True when the key exists. |
+| ![all](../media/blocks/db_all_v2.png) | Everything in the database, as a list. |
 
 `all data from the database` is how leaderboards are built: read everything, sort it with the [Lists](../lists.md) blocks, and show the top few.
 
@@ -39,12 +49,12 @@ You can create several databases. Keeping economy data and server settings in se
 
 | Block | What it does |
 | --- | --- |
-| ![set](../media/blocks/db_set.png) | Stores a value under a key, replacing what was there. |
-| ![delete](../media/blocks/db_del.png) | Removes a key. |
-| ![add](../media/blocks/db_add.png) | Adds a number to a numeric value. |
-| ![subtract](../media/blocks/db_sub.png) | Subtracts a number from it. |
-| ![push](../media/blocks/db_push.png) | Adds an item onto a value that is a list. |
-| ![clear](../media/blocks/db_clear.png) | Empties the whole database. |
+| ![set](../media/blocks/db_set_v2.png) | Stores a value under a key, replacing what was there. |
+| ![delete](../media/blocks/db_del_v2.png) | Removes a key. |
+| ![add](../media/blocks/db_add_v2.png) | Adds a number to a numeric value. |
+| ![subtract](../media/blocks/db_sub_v2.png) | Subtracts a number from it. |
+| ![push](../media/blocks/db_push_v2.png) | Adds an item onto a value that is a list. |
+| ![clear](../media/blocks/db_clear_v2.png) | Empties the whole database. |
 
 `add` and `subtract` are safer than reading, calculating and setting, because they cannot lose an update that happened in between.
 
