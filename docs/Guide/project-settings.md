@@ -79,6 +79,14 @@ Go to [discordapi.com/permissions.html](https://discordapi.com/permissions.html)
 Ask for the least you need. A bot requesting Administrator will be refused by careful server owners, and it is a real risk if your token ever leaks.
 :::
 
+## Export
+
+The runtime and package manager this bot is exported for, if you want something different from your own default.
+
+![The export settings of a project](../Features/media/project-export.png)
+
+Leave both on **my default** to use what you picked in [Settings > Export](../Features/settings.md#export). Pick a runtime or package manager here and this bot always exports with it, whatever your default is.
+
 ## Your project page
 
 Clicking the project name in the editor takes you to its page, which is what other people see.

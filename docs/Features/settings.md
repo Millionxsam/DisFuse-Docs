@@ -64,6 +64,21 @@ For big projects and slower computers.
 
 Saving always happens on a timer as well, so nothing is ever left unsaved for long.
 
+## Export
+
+What your bots are set up to run with when you [export](../Guide/running-your-bot.md) them.
+
+![Export settings](media/settings-export.png)
+
+**Runtime** is the program that runs your bot.
+
+- **Node.js** (default) runs it with `node index.js`.
+- **Bun** runs it with `bun index.js`. Bun reads the `.env` file by itself, so the export leaves out the `dotenv` library.
+
+**Package manager** installs the libraries your bot needs: **npm** (default), **pnpm**, **Yarn** or **Bun**. It changes the commands in `instructions.txt`, such as `pnpm install` and `pnpm start`.
+
+These are the defaults for every project. To use something else for one bot, change it in that project's [settings](../Guide/project-settings.md#export).
+
 ## Premium
 
 Your subscription: what plan you are on, when it renews, and how to change or cancel it.
@@ -76,7 +91,7 @@ See [DisFuse Premium](premium.md).
 
 | Setting | Where |
 | --- | --- |
-| Project description, visibility, permissions, bot token | [Project settings](../Guide/project-settings.md) |
+| Project description, visibility, permissions, bot token, export override | [Project settings](../Guide/project-settings.md) |
 | Secrets | `Utilities > Secrets` in the editor. See [Secrets](../Guide/secrets.md) |
 | Collaborators | **Invite** in the editor. See [Collaboration](../Guide/collaboration.md) |
 | Insights retention | The bottom of the [Insights](insights.md) dashboard |

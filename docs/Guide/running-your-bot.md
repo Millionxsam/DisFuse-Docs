@@ -21,6 +21,12 @@ Export the whole thing unless you are deliberately testing one workspace on its 
 
 Click **Download ZIP**.
 
+### Node.js or Bun
+
+The dialog says what the export is set up for, such as "Exporting for Node.js with npm". That decides the start command in `package.json` and the commands in `instructions.txt`.
+
+Change it in [Settings > Export](../Features/settings.md#export), or for just one bot in its [project settings](project-settings.md#export). With **Bun**, the start command is `bun index.js` and `dotenv` is left out, because Bun reads `.env` by itself.
+
 ### Download only the code
 
 Already have your bot set up on a host? Click **Download file** instead of **Download ZIP**. You get just `index.js`, the bot's code, with no ZIP to extract and delete afterwards. Replace the old `index.js` on your host with it.
@@ -46,7 +52,7 @@ The `.env` file contains your real bot token. Never upload the ZIP anywhere publ
 
 ## Choose a host
 
-Your bot needs [Node.js](https://nodejs.org), version 18 or newer.
+Your bot needs [Node.js](https://nodejs.org), version 18 or newer, or [Bun](https://bun.sh) if you exported it for Bun.
 
 **Free hosts.** Fine for testing and small bots. Expect limits: they may sleep when idle, cap your memory, or wipe files on restart.
 
@@ -78,8 +84,8 @@ Every host is different, but the shape is always the same:
 
 1. Unzip the download.
 2. Upload the files to your host.
-3. Install the dependencies. Most hosts do this for you; otherwise run `npm install`.
-4. Set the start command to `node index.js`, or `npm start` if your host prefers it.
+3. Install the dependencies. Most hosts do this for you; otherwise run `npm install` (or `pnpm install`, `yarn install` or `bun install`, matching your package manager).
+4. Set the start command to `node index.js` (`bun index.js` for Bun), or `npm start` if your host prefers it.
 5. Start it.
 
 Some hosts ignore `.env` files and want environment variables set in their own panel. If your bot starts but the token is missing, that is the reason. Copy each name and value across by hand.
