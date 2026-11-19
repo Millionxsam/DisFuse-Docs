@@ -5,7 +5,7 @@ title: Settings
 
 # Settings
 
-Four pages, reached from **Settings** in the dashboard sidebar.
+Reached from **Settings** in the dashboard sidebar.
 
 ## Workspace
 
@@ -25,6 +25,30 @@ How the block editor looks and behaves.
 | **Show Autosave on toolbar** | The saving indicator. |
 
 Changes apply the next time you open a project.
+
+## Appearance
+
+The colors of the DisFuse website itself: the dashboard, settings, the home page and the editor's toolbar. The block canvas keeps your [Workspace theme](#workspace).
+
+![Appearance settings](media/settings-appearance.png)
+
+**Site theme** is one of the presets (DisFuse, Darker, Ocean, Forest, Grape, Sunset or Candy) or **Custom**. A theme applies as soon as you click it, and follows you to any device you sign in on.
+
+With **Custom** you choose:
+
+| Setting | What it does |
+| --- | --- |
+| **Use a gradient** | Fade the page background between two colors instead of using one. |
+| **Background** / **Gradient start color** | The page background, or where the gradient starts. |
+| **Gradient end color** | Where the gradient ends. |
+| **Gradient direction** | Which way the gradient runs, such as left to right or top to bottom. |
+| **Accent color** | Buttons, highlights and the selected item in menus. |
+
+Panels and cards are worked out from your background and accent, so they always match.
+
+:::tip
+Text on DisFuse is light, so dark backgrounds read best. DisFuse warns you if you pick a light one.
+:::
 
 ## Notifications
 
