@@ -68,14 +68,14 @@ Where your blocks live.
 | Pan | Drag the empty background, or scroll. |
 | Zoom | Scroll with `Ctrl`/`Cmd` held, or use the zoom buttons. |
 | Undo and redo | `Ctrl`/`Cmd` + `Z`, and `Ctrl`/`Cmd` + `Shift` + `Z`. |
-| Copy and paste | `Ctrl`/`Cmd` + `C`, then `Ctrl`/`Cmd` + `V`. |
+| Copy and paste | `Ctrl`/`Cmd` + `C`, then `Ctrl`/`Cmd` + `V`. The block is pasted where your mouse is. **Paste** in the right-click menu pastes where you right-clicked. |
 | Delete | Drag to the trash can, or select and press `Delete`. |
 
 ### Right-click on the canvas
 
 ![The canvas menu](../Features/media/editor-context-menu.png)
 
-Options for the whole workspace: undo, redo, clean up the layout, collapse or expand every block, delete everything, move blocks to another workspace, and **Save Workspace as Template**.
+Options for the whole workspace: paste a copied block where you clicked, undo, redo, clean up the layout, collapse or expand every block, delete everything, move blocks to another workspace, and **Save Workspace as Template**.
 
 ### Right-click on a block
 
