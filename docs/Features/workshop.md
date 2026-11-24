@@ -91,6 +91,20 @@ Existing users are not moved automatically. They see there is a new version and 
 
 Keep the pack **private** while you are building. Make it public when it is ready for other people.
 
+## Archiving a block
+
+Once a block is published, deleting it would break every project that uses it, so publishing refuses. Archive it instead.
+
+Right-click the `new block named:` block and choose **Archive Block**.
+
+![Archiving a block](media/workshop-archive-block.png)
+
+The block leaves your canvas and moves to **Archived Blocks** in the toolbox. When you publish, it is hidden from the toolbox and the pack's page, but projects that already use it keep working.
+
+![Archived blocks](media/workshop-archived-blocks.png)
+
+Click **Restore** under a block in **Archived Blocks** to put it back on the canvas.
+
 ## Writing a pack worth installing
 
 - **Do one thing.** A pack called "Leveling Kit" is easier to trust than one called "My Blocks".
