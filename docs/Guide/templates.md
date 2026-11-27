@@ -9,6 +9,10 @@ A template is a ready-made set of blocks. Adding one drops a working example int
 
 Anyone can make templates. The Templates gallery holds the official ones made by the DisFuse team, plus everything the community has published.
 
+:::info
+Templates work in both editors. A template made with blocks can be added to a [DisFuse Builder](../Builder/introduction.md) project, where it becomes commands, events and steps, and a template made with DisFuse Builder can be added to a block project as blocks. In a DisFuse Builder project, open **Templates** on the project's dashboard.
+:::
+
 ## The Templates page
 
 Open **Templates** in the dashboard sidebar.

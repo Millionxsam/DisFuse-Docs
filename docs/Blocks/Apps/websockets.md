@@ -272,7 +272,7 @@ Every server has a name, "main" by default. Use the same name in all blocks.
 | --- | --- |
 | ![ws_server_joinGroup](../media/blocks/ws_server_joinGroup.png) | Groups are like chat rooms: put clients in one, then send a message to everyone in it at once. A client can be in many groups. |
 | ![ws_server_inGroup](../media/blocks/ws_server_inGroup.png) | True if this client has been added to the group |
-| ![ws_server_sendGroup](../media/blocks/ws_server_sendGroup.png) | Sends a message to every client in the group. Tick "except this client" to skip the one that sent it (only inside a "when a client…" block). |
+| ![ws_server_sendGroup](../media/blocks/ws_server_sendGroup.png) | Sends a message to every client in the group. Check "except this client" to skip the one that sent it (only inside a "when a client…" block). |
 | ![ws_server_sendEventGroup](../media/blocks/ws_server_sendEventGroup.png) | Sends an event to every client in the group |
 | ![ws_server_groupInfo](../media/blocks/ws_server_groupInfo.png) | Who is in a group right now |
 | ![ws_server_forEachInGroup](../media/blocks/ws_server_forEachInGroup.png) | Runs the blocks inside once for every client in the group. Inside, "this client" means the one the loop is on. |
@@ -396,7 +396,7 @@ Every server has a name, "main" by default. Use the same name in all blocks.
 | ![sio_server_joinRoom](../media/blocks/sio_server_joinRoom.png) | Rooms are like chat rooms: put clients in one, then send an event to everyone in it at once. A client can be in many rooms. |
 | ![sio_server_joinRoomId](../media/blocks/sio_server_joinRoomId.png) | Moves a client in or out of a room, found by its ID. Works anywhere. |
 | ![sio_server_inRoom](../media/blocks/sio_server_inRoom.png) | True if this client is in the room |
-| ![sio_server_emitRoom](../media/blocks/sio_server_emitRoom.png) | Sends an event to every client in the room. Tick "except this client" to skip the one that sent it (only inside a "when a client…" block). |
+| ![sio_server_emitRoom](../media/blocks/sio_server_emitRoom.png) | Sends an event to every client in the room. Check "except this client" to skip the one that sent it (only inside a "when a client…" block). |
 | ![sio_server_roomInfo](../media/blocks/sio_server_roomInfo.png) | Who is in a room right now |
 | ![sio_server_forEachInRoom](../media/blocks/sio_server_forEachInRoom.png) | Runs the blocks inside once for every client in the room. Inside, "this client" means the one the loop is on. |
 

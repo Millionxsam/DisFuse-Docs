@@ -11,6 +11,10 @@ The Workshop is where people build and share **block packs**: sets of custom blo
 
 If you keep rebuilding the same thing across projects, or you want to give other people a feature without giving them your whole bot, a block pack is the answer.
 
+:::info
+Packs can also be made with DisFuse Builder, as events, steps and values instead of blocks. Every pack works in every project, whichever editor either was made with. The **Made with blocks** and **Made with DisFuse Builder** filters on the Workshop page show one kind or the other. See [Workshop packs in DisFuse Builder](../Builder/workshop-packs.md).
+:::
+
 ## Finding packs
 
 **Workshop** in the dashboard lists what is available. Search by name, or browse the featured packs.
@@ -37,7 +41,7 @@ Uninstalling a pack a project already uses leaves that project with blocks nothi
 
 ## Building a pack
 
-Click **Create** on the Workshop page. Give the pack a name, a color and a description, and choose whether it is private.
+Click **Create** on the Workshop page and choose **Build it with blocks**. Give the pack a name, a color and a description, and choose whether it is private. (To build one with DisFuse Builder instead, see [Workshop packs](../Builder/workshop-packs.md).)
 
 You are then in the **Workshop editor**, a block editor for building blocks. It works like the project editor, but the blocks you drag define *other* blocks.
 

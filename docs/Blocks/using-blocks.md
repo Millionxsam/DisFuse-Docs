@@ -17,7 +17,7 @@ The categories are grouped, with a thin line between each group:
 
 | Group | Categories | What they are for |
 | --- | --- | --- |
-| Language basics | Logic, Loops, Text, Math, Lists, Objects, Time, Colour | The general purpose building blocks any program needs |
+| Language basics | Logic, Loops, Text, Math, Lists, Objects, Time, Color | The general purpose building blocks any program needs |
 | Your own code | Variables, Functions, JavaScript | Storing values, reusing logic, and dropping down to raw code |
 | Discord | Main, Components, Messages, Servers, Interactions, Events, Cooldowns | Everything that talks to Discord |
 | Storage and integrations | Databases, Dashboard, Apps / Utils | Remembering things, and talking to other services |

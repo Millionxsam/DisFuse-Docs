@@ -73,7 +73,7 @@ The two visibility settings are independent, which gives you four combinations:
 
 The permissions number used when somebody adds your bot from DisFuse.
 
-Go to [discordapi.com/permissions.html](https://discordapi.com/permissions.html), tick the permissions your bot actually needs, and paste the number it shows at the top.
+Go to [discordapi.com/permissions.html](https://discordapi.com/permissions.html), check the permissions your bot actually needs, and paste the number it shows at the top.
 
 :::tip
 Ask for the least you need. A bot requesting Administrator will be refused by careful server owners, and it is a real risk if your token ever leaks.

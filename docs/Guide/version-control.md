@@ -7,6 +7,10 @@ title: Version Control
 
 A version is a snapshot of your whole project: every workspace, exactly as it was. You can switch between versions, work on one without touching the others, and come back to a version that worked when a change goes wrong.
 
+:::tip
+This page is about block editor projects. DisFuse Builder projects have versions too, on their own **Versions** page: see [Versions in DisFuse Builder](../Builder/versions.md).
+:::
+
 :::info
 Version Control is free, with up to 3 versions per project. [DisFuse Premium](../Features/premium.md) raises that to 25. It is optional: a project works without versions until you create the first one.
 :::

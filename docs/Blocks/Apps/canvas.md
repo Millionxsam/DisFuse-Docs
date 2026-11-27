@@ -44,7 +44,7 @@ Drawing blocks use whatever style is currently set, so set the style first and t
 | ![line width](../media/blocks/canvas_setLineWidth.png) | How thick outlines are. |
 | ![font](../media/blocks/canvas_setFont.png) | The font, as a size and family, for example `bold 40px Arial`. |
 
-Colors come from the [Colour](../colour.md) blocks.
+Colors come from the [Color](../colour.md) blocks.
 
 ## Drawing
 

@@ -64,7 +64,7 @@ Put `log in to Twitch` in `when the bot is logged in`. Once it has run, the live
 | Block | What it does |
 | --- | --- |
 | ![get channel](../media/blocks/twitch_getChannel.png) | Looks up a channel. |
-| ![search channels](../media/blocks/twitch_searchChannels.png) | Searches channels by name and runs once for each one found. Tick the box to only find live channels. |
+| ![search channels](../media/blocks/twitch_searchChannels.png) | Searches channels by name and runs once for each one found. Check the box to only find live channels. |
 
 ![Channel info](../media/blocks/twitch_channelInfo.png)
 

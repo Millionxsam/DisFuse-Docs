@@ -30,7 +30,7 @@ Right after sending, `message sent by the bot` is the message that just went out
 
 By default, a message your bot sends can only ping users. Role, `@everyone` and `@here` mentions still show up in the message, but nobody gets a notification. This stops people from using your bot to ping a role or everyone just by getting it to repeat what they typed.
 
-To change which pings are allowed, click the gear on the block and tick **include allowed pings**. An **allowed pings** row appears on the block. Tick the pings you want this message to send:
+To change which pings are allowed, click the gear on the block and check **include allowed pings**. An **allowed pings** row appears on the block. Check the pings you want this message to send:
 
 | Option | What it allows |
 | --- | --- |

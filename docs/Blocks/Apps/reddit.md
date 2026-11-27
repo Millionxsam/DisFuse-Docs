@@ -22,7 +22,7 @@ These run the blocks inside them with a post. Inside, `get ... of Reddit post` r
 
 | Block | What it does |
 | --- | --- |
-| ![random post](../media/blocks/reddit_getRandomPost.png) | Picks a random post from the subreddit's hot posts. Pick **image post** for a meme command. NSFW posts are skipped unless you tick the box. |
+| ![random post](../media/blocks/reddit_getRandomPost.png) | Picks a random post from the subreddit's hot posts. Pick **image post** for a meme command. NSFW posts are skipped unless you check the box. |
 | ![for each post](../media/blocks/reddit_forEachPost.png) | Runs once for each post, sorted by hot, new, rising, top or controversial. |
 | ![get post](../media/blocks/reddit_getPost.png) | Looks up one post by its link or ID. |
 | ![search](../media/blocks/reddit_searchPosts.png) | Searches one subreddit, or all of Reddit if the subreddit is empty. |
@@ -51,7 +51,7 @@ These run the blocks inside them with a post. Inside, `get ... of Reddit post` r
 
 ![Subreddit info](../media/blocks/reddit_subredditInfo.png)
 
-`get subreddit ... then ...` looks up a subreddit, and `get ... of Reddit subreddit` reads its name, title, description, sidebar, member count, members online, creation date, type, icon, banner, colour and link.
+`get subreddit ... then ...` looks up a subreddit, and `get ... of Reddit subreddit` reads its name, title, description, sidebar, member count, members online, creation date, type, icon, banner, color and link.
 
 ![Get user](../media/blocks/reddit_getUser.png)
 

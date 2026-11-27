@@ -60,8 +60,8 @@ Plug one of these into a label block.
 | ![channel select](../Blocks/media/blocks/modalc_channelSelect.png) | Picks channels. Restrict the kinds with `channel type` blocks. |
 | ![file upload](../Blocks/media/blocks/modalc_fileUpload.png) | Uploads between 1 and 10 files. |
 | ![radio buttons](../Blocks/media/blocks/modalc_radioGroup.png) | Picks exactly one of 2 to 10 choices. |
-| ![checkboxes](../Blocks/media/blocks/modalc_checkboxGroup.png) | Ticks any number of choices. |
-| ![single checkbox](../Blocks/media/blocks/modalc_checkbox.png) | Ticks one box, for a yes or no. |
+| ![checkboxes](../Blocks/media/blocks/modalc_checkboxGroup.png) | Checks any number of choices. |
+| ![single checkbox](../Blocks/media/blocks/modalc_checkbox.png) | Checks one box, for a yes or no. |
 
 Every input has a **custom ID**, which is how you read its value back. They have to be unique within the modal.
 
@@ -101,8 +101,8 @@ Each input type has its own block. Give it the custom ID you set on the input.
 | ![selected mentionables](../Blocks/media/blocks/modalc_getSelectedMentionables.png) | The users and roles chosen. |
 | ![uploaded files](../Blocks/media/blocks/modalc_getUploadedFileUrls.png) | Links to the files uploaded. |
 | ![radio value](../Blocks/media/blocks/modalc_getRadioGroup.png) | The value of the radio button chosen. |
-| ![checkbox values](../Blocks/media/blocks/modalc_getCheckboxGroup.png) | The values of the boxes ticked. |
-| ![single checkbox](../Blocks/media/blocks/modalc_getCheckbox.png) | True when the box was ticked. |
+| ![checkbox values](../Blocks/media/blocks/modalc_getCheckboxGroup.png) | The values of the boxes checked. |
+| ![single checkbox](../Blocks/media/blocks/modalc_getCheckbox.png) | True when the box was checked. |
 
 Most of these return a list, so read them with the [Lists](../Blocks/lists.md) blocks.
 

@@ -9,7 +9,12 @@ title: Introduction
 
 **Make your own advanced Discord bot with simple, easy-to-use block coding.**
 
-Have you ever wanted to create your own Discord bot, but you are not very good at coding? With DisFuse, making Discord bots has never been easier. You snap blocks together in a scratch-like editor, DisFuse turns them into real [discord.js](https://discord.js.org) code, and you download that code and run it.
+Have you ever wanted to create your own Discord bot, but you are not very good at coding? With DisFuse, making Discord bots has never been easier. You build your bot in one of two editors, DisFuse turns it into real [discord.js](https://discord.js.org) code, and you download that code and run it.
+
+| Editor | How you build |
+| --- | --- |
+| **Block Editor** | Snap blocks together in a scratch-like editor. |
+| **[DisFuse Builder](Builder/introduction.md)** | Pick what your bot does from menus and fill in a few boxes. No blocks and no code. |
 
 Official website: [disfuse.xyz](https://disfuse.xyz)
 
@@ -47,7 +52,8 @@ Then you have a fully functioning Discord bot.
 
 ## Where to go next
 
-- **[Blocks](Blocks/using-blocks.md)** is the reference: one page for every category in the toolbox.
+- **[DisFuse Builder](Builder/introduction.md)** covers the no-code editor: commands, events, steps and values.
+- **[Blocks](Blocks/using-blocks.md)** is the block editor's reference: one page for every category in the toolbox.
 - **[Interactions](Interactions/interactions.md)** covers slash commands, context menus and modals in depth.
 - **[Features](Features/premium.md)** covers everything outside the editor: Insights, Control, Websites and the Workshop.
 - **[Help](Help/faq.md)** answers the questions that come up most often.

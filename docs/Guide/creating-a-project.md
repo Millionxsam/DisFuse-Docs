@@ -32,7 +32,18 @@ Your token is in the Discord Developer Portal, under the **Bot** tab of your app
 Treat your bot token like a password. Anyone who has it can control your bot completely. DisFuse stores it with the project and never shows it to collaborators, but you should still never paste it into a Discord message or a screenshot.
 :::
 
-### Step 2: project details
+### Step 2: choose your editor
+
+![Choosing an editor](../Builder/media/builder-new-project.png)
+
+| Editor | How you build |
+| --- | --- |
+| **Block Editor** | Snap blocks together in workspaces. The rest of this guide covers it. |
+| **DisFuse Builder** | Pick what your bot does from menus and fill in a few boxes. No blocks and no code. See [DisFuse Builder](../Builder/introduction.md). |
+
+You can't switch editors after the project is made. You can make a second project for the same bot with the other editor, or [copy a block project into DisFuse Builder](../Builder/copy-from-blocks.md) later.
+
+### Step 3: project details
 
 ![Project details](../Features/media/project-edit.png)
 
@@ -56,7 +67,7 @@ Project visibility and bot visibility are separate. A public project with a priv
 
 </details>
 
-Click **Create Project**, and DisFuse takes you into the editor.
+Click **Create Project**, and DisFuse takes you into the editor. A DisFuse Builder project opens on its [dashboard](../Builder/introduction.md#the-dashboard) instead, and the rest of this page doesn't apply to it.
 
 ## Naming your first workspace
 

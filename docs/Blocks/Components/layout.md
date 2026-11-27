@@ -33,7 +33,7 @@ Separators are how you give a long message some breathing room without resorting
 
 A container groups components together, draws them on a slightly different background, and puts a colored bar down the left edge. It is the closest thing to the old embed.
 
-- **Accent color** sets the bar color. Leave it empty for no bar. Plug in any [Colour](../colour.md) block.
+- **Accent color** sets the bar color. Leave it empty for no bar. Plug in any [Color](../colour.md) block.
 - **Components** holds everything inside the container: text displays, sections, galleries, separators and interactive rows.
 
 Containers cannot be nested inside other containers.

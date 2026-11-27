@@ -43,13 +43,13 @@ A `logModerationAction` function might take `action`, `target` and `reason` as i
 
 Some blocks have to wait for Discord, such as sending a message or fetching a member. Those blocks only work inside an **asynchronous** function.
 
-Click the gear on a function definition and tick **asynchronous**. The block then reads **to do something asynchronously**.
+Click the gear on a function definition and check **asynchronous**. The block then reads **to do something asynchronously**.
 
 ![The asynchronous option in the gear menu](media/blocks/procedures_async_gear.png)
 
 Every call to an asynchronous function waits for the function to finish before the next block runs. A call that returns a value gives you the finished value, not a promise.
 
-Call an asynchronous function from an event, a command, or another asynchronous function. If you call it from an ordinary function, tick **asynchronous** on that function too.
+Call an asynchronous function from an event, a command, or another asynchronous function. If you call it from an ordinary function, check **asynchronous** on that function too.
 
 ## When to make a function
 
